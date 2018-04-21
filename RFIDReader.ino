@@ -65,7 +65,7 @@ void loop() {
     rfid.uid.uidByte[1] != nuidPICC[1] || 
     rfid.uid.uidByte[2] != nuidPICC[2] || 
     rfid.uid.uidByte[3] != nuidPICC[3] ) {
-    Serial.println(F("A new card has been detected."));
+    Serial.println(F("A new card has been detected."));    //compare value that we got
 
     // Store NUID into nuidPICC array
     for (byte i = 0; i < 4; i++) {
