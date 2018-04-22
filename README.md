@@ -24,6 +24,9 @@ Hardware
 * Jumper wire
 * USB
 
+ต่อวงจรดังนี้
+![30849593_1884567464901540_1185405761_o](https://user-images.githubusercontent.com/32869870/39094851-b6f4d5b6-4660-11e8-902d-565304c937fe.jpg)
+
 ### Installing & Deployment
 
 1. เปิดโปรแกรม arduino
