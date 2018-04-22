@@ -1,2 +1,86 @@
-# Locking-with-RFID
-This project is about using RFID and NodeMCU to create an identifier for pet.
+# RFID4PET
+
+นำเทคโนโลยี RFID มาใช้เพื่อการระบุตัวตนของสัตว์เลี้ยง โดยที่จะแสกนรหัสออกมาแล้วส่งเข้าสู่ Firebase เพื่อนำมาแสดงผล
+
+
+### Prerequisites
+
+install all of these in order to run.
+
+* [arduino](https://www.arduino.cc/)
+* [Firebase](https://firebase.google.com/)
+* [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+* [Firebase arduino master](https://github.com/googlesamples/firebase-arduino/archive/master.zip)
+* [MFRC522](https://www.arduinolibraries.info/libraries/mfrc522)
+* [NodeMCU](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
+* [USB-TTL](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+
+### Installing
+
+A step by step series of examples that tell you have to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [arduino](https://www.arduino.cc/)
+* [Firebase](https://firebase.google.com/)
+* [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
+* [Firebase arduino master](https://github.com/googlesamples/firebase-arduino/archive/master.zip)
+* [MFRC522](https://www.arduinolibraries.info/libraries/mfrc522)
+* [NodeMCU](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
+* [USB-TTL](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **จิรพัส วงษ์พิทักษ์** - *60070009* - [glass123451](https://github.com/glass123451)
+* **เจตวัฒน์ อรรถการพงษ์** - *60070011* - [seenosea](https://github.com/seenosea)
+* **ฐิติโชติ ใจเมือง** - *60070019* - [Thitichote](https://github.com/Thitichote)
+
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc
