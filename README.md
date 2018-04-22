@@ -24,7 +24,7 @@ Hardware
 * Jumper wire
 * USB
 
-### Installing
+### Installing & Deployment
 
 1. เปิดโปรแกรม arduino
 2. เสียบสาย USB ระหว่าง NodeMCU และคอมพิวเตอร์เพื่อเชื่อมต่อกัน
@@ -59,9 +59,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -73,10 +70,6 @@ Add additional notes about how to deploy this on a live system
 * [NodeMCU](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 * [USB-TTL](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
