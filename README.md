@@ -55,10 +55,3 @@ Hardware
 * **จิรพัส วงษ์พิทักษ์** - *60070009* - [glass123451](https://github.com/glass123451)
 * **เจตวัฒน์ อรรถการพงษ์** - *60070011* - [seenosea](https://github.com/seenosea)
 * **ฐิติโชติ ใจเมือง** - *60070019* - [Thitichote](https://github.com/Thitichote)
-
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
