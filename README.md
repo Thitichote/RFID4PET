@@ -7,7 +7,9 @@
 
 install all of these in order to run.
 
-* [arduino](https://www.arduino.cc/)
+Software
+
+* [arduino software](https://www.arduino.cc/)
 * [Firebase](https://firebase.google.com/)
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [Firebase arduino master](https://github.com/googlesamples/firebase-arduino/archive/master.zip)
@@ -15,23 +17,27 @@ install all of these in order to run.
 * [NodeMCU](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 * [USB-TTL](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
+Hardware
+* NodeMCU
+* MFRC522
+* Breadboard
+* Jumper wire
+* USB
+
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+1. เปิดโปรแกรม arduino
+2. เสียบสาย USB ระหว่าง NodeMCU และคอมพิวเตอร์เพื่อเชื่อมต่อกัน
+3. แสกนบัตรเพื่อดู Serial ID ของการ์ด
+4. restart board
+5. รอจนกว่าบอร์ดจะเชื่อมต่อกับ WIFI
+6. ทดลองใช้โดยการแตะบัตร
+   - ถ้าบัตรมีตัวตนในฐานข้อมูล
+     - ก็จะแสดงข้อมูลออกมาโดยดึงจากfirebase
+   - ถ้าไม่มีตัวตนในฐานข้อมูล
+     - ก็จะให้กรอกข้อมูลผ่านserial และข้อมูลจะถูกบันทึกใน Firebase
+7. เป็นอันเสร็จสิ้น
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
