@@ -29,7 +29,7 @@ Hardware
 
 ### Installing & Deployment
 
-1. เปิดโปรแกรม arduino
+1. เปิดโปรแกรม Arduino
 2. เสียบสาย USB ระหว่าง NodeMCU และคอมพิวเตอร์เพื่อเชื่อมต่อกัน
 3. แสกนบัตรเพื่อดู Serial ID ของการ์ด
 4. Restart board
@@ -48,7 +48,7 @@ Hardware
 
 ## Built With
 
-* [arduino](https://www.arduino.cc/)
+* [Arduino](https://www.arduino.cc/)
 * [Firebase](https://firebase.google.com/)
 * [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 * [Firebase arduino master](https://github.com/googlesamples/firebase-arduino/archive/master.zip)
