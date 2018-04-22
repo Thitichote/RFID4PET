@@ -5,7 +5,7 @@
 
 ### Prerequisites
 
-install all of these in order to run.
+Install all of these in order to run.
 
 Software
 
@@ -32,13 +32,13 @@ Hardware
 1. เปิดโปรแกรม arduino
 2. เสียบสาย USB ระหว่าง NodeMCU และคอมพิวเตอร์เพื่อเชื่อมต่อกัน
 3. แสกนบัตรเพื่อดู Serial ID ของการ์ด
-4. restart board
+4. Restart board
 5. รอจนกว่าบอร์ดจะเชื่อมต่อกับ WIFI
 6. ทดลองใช้โดยการแตะบัตร
    - ถ้าบัตรมีตัวตนในฐานข้อมูล
-     - ก็จะแสดงข้อมูลออกมาโดยดึงจากfirebase
+     - ก็จะแสดงข้อมูลออกมาโดยดึงจาก Firebase
    - ถ้าไม่มีตัวตนในฐานข้อมูล
-     - ก็จะให้กรอกข้อมูลผ่านserial และข้อมูลจะถูกบันทึกใน Firebase
+     - ก็จะให้กรอกข้อมูลผ่าน Serial และข้อมูลจะถูกบันทึกใน Firebase
 7. เป็นอันเสร็จสิ้น
 
 
