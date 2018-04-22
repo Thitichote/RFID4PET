@@ -73,24 +73,24 @@ void loop() {
    
     Serial.println(F("The NUID tag is:"));
     Serial.print(F("In hex: "));
-    sentValue(rfid.uid.uidByte, rfid.uid.size);
-    Serial.println();
     printHex(rfid.uid.uidByte, rfid.uid.size);
+    Serial.println();
+    sentValue(rfid.uid.uidByte, rfid.uid.size);
     Serial.println();
     Serial.print(F("In dec: "));
     printDec(rfid.uid.uidByte, rfid.uid.size);
     Serial.println();
-    Serial.println(Value);
+    //Serial.println(Value);
     // Start Firebase
     FirebaseObject data = Firebase.get(Value);
     if(data.isNullString()){
       // If null
       Serial.println("Card wasn't found");    //if no data correlation with card, start to push data
       Serial.println("--------------------------------------------------");
-      Serial.print("Enter number : ");
+      /*Serial.print("Enter number : ");
       delay(10000);
+      Serial.println(gotnumber);*/
       String gotnumber = Serial.readString();
-      Serial.println(gotnumber);
       
       Serial.print("Enter name : ");
       delay(10000);
@@ -136,10 +136,6 @@ void loop() {
       String Target = "";
       Serial.println("Card has updated successful!!!");
       Serial.println("--------------------------------------------------");
-      while (Serial.available() > 0) {
-        Target = Serial.readString();
-      }
-      Serial.println(Target);
     }else{
       // If have data
       String Target = Value;
@@ -148,9 +144,9 @@ void loop() {
       Serial.print("RFID code : ");
       Serial.println(Target);
       
-      Serial.print("Number : ");
+      /*Serial.print("Number : ");
       String Number = Firebase.getString(Target+"/NUMBER");
-      Serial.println(Number);
+      Serial.println(Number);*/
 
       Serial.print("Pet's Name : ");
       String Name = Firebase.getString(Target+"/NAME");
@@ -186,7 +182,6 @@ void loop() {
 
       Serial.println("------------------------------------------------");
     }
-    // End of Game. GGWP m8
 
   // Halt PICC
   rfid.PICC_HaltA();
@@ -223,8 +218,8 @@ void sentValue(byte *buffer, byte bufferSize) {
     buffer[i] < 0x10 ? " 0" : " ";
     Value += String(buffer[i], HEX);
   }
-  Serial.print(String(Value));
-  Serial.println("Sent successful");
+  Serial.println(String(Value));
+  Serial.print("Sent successful");
 }
 
 void FirebaseNew(String Target, String Number, String Name, String Kind, String Specie, String Gender, String Dateofbirth, String Colors, String Owner, String Contact){
