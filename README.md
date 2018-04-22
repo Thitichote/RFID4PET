@@ -41,6 +41,10 @@ Hardware
      - ก็จะให้กรอกข้อมูลผ่าน Serial และข้อมูลจะถูกบันทึกใน Firebase
 7. เป็นอันเสร็จสิ้น
 
+![31120749_1521537947974140_4591657383335297024_n](https://user-images.githubusercontent.com/32869870/39095766-1ebd74aa-4670-11e8-904f-c762290325df.png)
+![30768448_1884632678228352_1377096472_o](https://user-images.githubusercontent.com/32869870/39095773-2e234d16-4670-11e8-8a7b-db4b269bff10.png)
+
+
 
 ## Built With
 
